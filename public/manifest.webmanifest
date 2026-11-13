@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "नयन – दवा जाँच",
+  "short_name": "नयन",
+  "description": "पर्चे से दवा का पत्ता मिलाइए, आज की दवाएँ सुनिए — हिंदी में, आवाज़ से।",
+  "start_url": "/app",
+  "scope": "/app",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d0830",
+  "theme_color": "#0d0830",
+  "lang": "hi",
+  "dir": "ltr",
+  "categories": ["health", "medical", "accessibility"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

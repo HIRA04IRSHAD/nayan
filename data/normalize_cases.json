@@ -1,0 +1,369 @@
+{
+  "_note": "Shared test cases. lib/normalize.ts and data/nayan_normalize.py must both pass every case, so names indexed by build_drugdb.py match names looked up by the app.",
+  "salt": [
+    [
+      "Paracetamol I.P.",
+      "paracetamol"
+    ],
+    [
+      "Paracetamol IP",
+      "paracetamol"
+    ],
+    [
+      "Acetaminophen",
+      "paracetamol"
+    ],
+    [
+      "Metformin Hydrochloride IP",
+      "metformin"
+    ],
+    [
+      "Metformin HCl",
+      "metformin"
+    ],
+    [
+      "Pantoprazole Sodium",
+      "pantoprazole"
+    ],
+    [
+      "Potassium Clavulanate",
+      "clavulanic acid"
+    ],
+    [
+      "Clavulanate Potassium",
+      "clavulanic acid"
+    ],
+    [
+      "Clavulanic Acid",
+      "clavulanic acid"
+    ],
+    [
+      "Amoxycillin",
+      "amoxicillin"
+    ],
+    [
+      "Amoxycillin Trihydrate",
+      "amoxicillin"
+    ],
+    [
+      "Atorvastatin Calcium",
+      "atorvastatin"
+    ],
+    [
+      "Amlodipine Besylate",
+      "amlodipine"
+    ],
+    [
+      "Metoprolol Succinate",
+      "metoprolol succinate"
+    ],
+    [
+      "Calcium Carbonate",
+      "calcium carbonate"
+    ],
+    [
+      "Vitamin D3",
+      "cholecalciferol"
+    ],
+    [
+      "  Telmisartan  ",
+      "telmisartan"
+    ],
+    [
+      "Pantoprazole Sodium IP eq. to Pantoprazole",
+      "pantoprazole"
+    ],
+    [
+      "Amlodipine Besilate IP equivalent to Amlodipine",
+      "amlodipine"
+    ],
+    [
+      "Rosuvastatin Calcium IP equiv. to Rosuvastatin",
+      "rosuvastatin"
+    ],
+    [
+      "Thyroxine",
+      "levothyroxine"
+    ],
+    [
+      "Thyroxine Sodium IP",
+      "levothyroxine"
+    ],
+    [
+      "Levothyroxine Sodium",
+      "levothyroxine"
+    ]
+  ],
+  "brand": [
+    [
+      "Tab. DOLO-650",
+      "dolo 650"
+    ],
+    [
+      "dolo650",
+      "dolo 650"
+    ],
+    [
+      "CAP OMEZ 20",
+      "omez 20"
+    ],
+    [
+      "Glycomet GP 1",
+      "glycomet gp 1"
+    ],
+    [
+      "Pan-D",
+      "pan d"
+    ],
+    [
+      "Augmentin 625 Duo Tablet",
+      "augmentin 625 duo tablet"
+    ]
+  ],
+  "medicine_name": [
+    [
+      "Dolo 650 Tablet",
+      "dolo 650"
+    ],
+    [
+      "TAB DOLO-650",
+      "dolo 650"
+    ],
+    [
+      "Augmentin 625 Duo Tablet",
+      "augmentin 625 duo"
+    ],
+    [
+      "Azithral 500 Tablet",
+      "azithral 500"
+    ],
+    [
+      "Ascoril LS Syrup",
+      "ascoril ls"
+    ],
+    [
+      "Altraday Capsule SR",
+      "altraday sr"
+    ],
+    [
+      "Almox 500 Capsule",
+      "almox 500"
+    ],
+    [
+      "Albacof-D Syrup No Alcohol, Sugar Free",
+      "albacof d no alcohol sugar free"
+    ],
+    [
+      "Cetrezol L\t Forte 10mg Tablet",
+      "cetrezol l forte 10"
+    ],
+    [
+      "Anovate Cream",
+      "anovate"
+    ],
+    [
+      "Betaceﬁ O 200mg/200mg Tablet",
+      "betacefi o 200 200"
+    ],
+    [
+      "Anginac‐RB Capsule",
+      "anginac rb"
+    ],
+    [
+      "Calpol 500mg Tablet",
+      "calpol 500"
+    ],
+    [
+      "Thyronorm 12.5mcg Tablet",
+      "thyronorm 12.5"
+    ],
+    [
+      "Thyronorm 125mcg Tablet",
+      "thyronorm 125"
+    ],
+    [
+      "Glycomet-GP 0.5 Tablet SR",
+      "glycomet gp 0.5 sr"
+    ],
+    [
+      "Calpol T Tablet",
+      "calpol t"
+    ],
+    [
+      "Vitamin G 5 g Sachet",
+      "vitamin g 5"
+    ]
+  ],
+  "strength": [
+    [
+      "650 mg",
+      "650mg"
+    ],
+    [
+      "650mg",
+      "650mg"
+    ],
+    [
+      "0.5 g",
+      "500mg"
+    ],
+    [
+      "1 gm",
+      "1000mg"
+    ],
+    [
+      "50 mcg",
+      "0.05mg"
+    ],
+    [
+      "2.5mg",
+      "2.5mg"
+    ],
+    [
+      "125mg/5ml",
+      "125mg/5ml"
+    ],
+    [
+      "1000 IU",
+      "1000iu"
+    ],
+    [
+      "1%",
+      "1%"
+    ],
+    [
+      "650",
+      "650"
+    ],
+    [
+      "6?0 mg",
+      "?"
+    ],
+    [
+      null,
+      "?"
+    ],
+    [
+      "0.10% w/w",
+      "0.1%w/w"
+    ],
+    [
+      "1% w/v",
+      "1%w/v"
+    ],
+    [
+      "1Million IU",
+      "1000000iu"
+    ],
+    [
+      "25000IU",
+      "25000iu"
+    ],
+    [
+      "30mg/5ml",
+      "30mg/5ml"
+    ],
+    [
+      "1.4gm/5ml",
+      "1400mg/5ml"
+    ],
+    [
+      "NA",
+      "?"
+    ],
+    [
+      "2.5Billion Spores",
+      "?"
+    ],
+    [
+      "75i.u",
+      "75iu"
+    ],
+    [
+      "75 I.U.",
+      "75iu"
+    ],
+    [
+      "3miu",
+      "3000000iu"
+    ],
+    [
+      "60Million spores",
+      "?"
+    ]
+  ],
+  "composition": [
+    {
+      "ingredients": [
+        {
+          "salt": "Paracetamol IP",
+          "strength": "650 mg"
+        }
+      ],
+      "salt_key": "paracetamol",
+      "composition_key": "paracetamol:650mg"
+    },
+    {
+      "ingredients": [
+        {
+          "salt": "Clavulanic Acid",
+          "strength": "125mg"
+        },
+        {
+          "salt": "Amoxycillin",
+          "strength": "500mg"
+        }
+      ],
+      "salt_key": "amoxicillin+clavulanic acid",
+      "composition_key": "amoxicillin:500mg+clavulanic acid:125mg"
+    },
+    {
+      "ingredients": [
+        {
+          "salt": "Metformin Hydrochloride",
+          "strength": "500 mg"
+        },
+        {
+          "salt": "Glimepiride",
+          "strength": "1 mg"
+        }
+      ],
+      "salt_key": "glimepiride+metformin",
+      "composition_key": "glimepiride:1mg+metformin:500mg"
+    },
+    {
+      "ingredients": [
+        {
+          "salt": "Levothyroxine",
+          "strength": "50mcg"
+        }
+      ],
+      "salt_key": "levothyroxine",
+      "composition_key": "levothyroxine:0.05mg"
+    },
+    {
+      "ingredients": [
+        {
+          "salt": "Paracetamol",
+          "strength": null
+        }
+      ],
+      "salt_key": "paracetamol",
+      "composition_key": "paracetamol:?"
+    },
+    {
+      "ingredients": [
+        {
+          "salt": "Phenylephrine",
+          "strength": "0.10% w/w"
+        },
+        {
+          "salt": "Beclometasone",
+          "strength": "0.025% w/w"
+        }
+      ],
+      "salt_key": "beclometasone+phenylephrine",
+      "composition_key": "beclometasone:0.025%w/w+phenylephrine:0.1%w/w"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+.dev.log
+data/raw/
+# Caregiver cases (photos + answers) written by lib/case-store.ts; private and short-lived, never committed.
+data/cases/
+__pycache__/
